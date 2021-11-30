@@ -1,0 +1,31 @@
+<h1 id="cto-innovation-day-26th-november-2021">CTO Innovation Day 26th November 2021</h1>
+<p>This documentation was created as part of a Proof of Concept for docs as code at Home Office.</p>
+<p>As part of <a href="https://www.gov.uk/government/publications/home-office-digital-data-and-technology-strategy-2024/home-office-digital-data-and-technology-strategy-2024">DDaT Strategy 2024</a> we are assessing a number of frameworks for docs-as-code. These are as followed: -</p>
+<h2 id="options-appraisal">Options appraisal</h2>
+<p>We assessed 3 options:</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Framework</th>
+<th>Building Blocks</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr><tr>
+<td>Hugo</td>
+<td>Go</td>
+<td>Great</td>
+<td>No Search</td>
+</tr><tr>
+<td>Middleman</td>
+<td>Ruby</td>
+<td>Fab</td>
+<td>Search is good, nesting of pages</td>
+</tr><tr>
+<td>Nunchucks</td>
+<td>Nunchucks</td>
+<td>Great</td>
+<td>Wonderful</td>
+</tr>
+        </table>
+      </div><h2 id="summary">Summary</h2>
+<p>Middleman rules!!!!</p>
