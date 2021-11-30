@@ -4,7 +4,7 @@
 
  As part of [DDaT Strategy 2024](https://www.gov.uk/government/publications/home-office-digital-data-and-technology-strategy-2024/home-office-digital-data-and-technology-strategy-2024) we are assessing a number of frameworks for docs-as-code. These are as followed: -
 
- ## Options appraisal
+## Options appraisal
 
  We assessed 3 options:
 
@@ -14,6 +14,6 @@
  Middleman | Ruby | Fab | Search is good, nesting of pages
  Nunchucks | Nunchucks | Great | Wonderful
 
- ## Summary
+## Summary
 
  Middleman rules!!!!
