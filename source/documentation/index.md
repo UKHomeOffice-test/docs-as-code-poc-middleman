@@ -1,21 +1,19 @@
-# Hello, World!
+# CTO Innovation Day 26th November 2021
 
-## Edit Me!
+ This documentation was created as part of a Proof of Concept for docs as code at Home Office.
 
-Open `source/documentation/index.md` in your favourite text editor and start editing!
+ As part of [DDaT Strategy 2024](https://www.gov.uk/government/publications/home-office-digital-data-and-technology-strategy-2024/home-office-digital-data-and-technology-strategy-2024) we are assessing a number of frameworks for docs-as-code. These are as followed: -
 
-You can write content in [Markdown](https://daringfireball.net/projects/markdown/) using **all** of the _usual_ syntax that you're used to!
+ ## Options appraisal
 
-This means you can use things like tables:
+ We assessed 3 options:
 
-Food | Kind | Tasty?
---- | --- | ---
-Bananas | Fruit | Yes
-Aubergines | Vegetable | No
-Apricots | Fruit | Yes
+ Framework | Building Blocks | Pros | Cons
+ --- | --- | --- | ---
+ Hugo | Go | Great | No Search
+ Middleman | Ruby | Fab | Search is good, nesting of pages
+ Nunchucks | Nunchucks | Great | Wonderful
 
-To change the title of the page or include additional files you'll need to edit `source/index.html.md.erb`.
+ ## Summary
 
-If you want slightly more control, you can always use <strong>HTML</strong>.
-
-For more detail and troubleshooting, take a look at the `README.md` file in the root of this project.
+ Middleman rules!!!!
