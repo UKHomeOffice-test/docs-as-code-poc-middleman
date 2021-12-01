@@ -30,14 +30,6 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
-      - name: Install node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 13.x
-
-      - name: Install packages
-        run: npm install
-
       - name: Build Middleman
         run: bundle exec middleman build
 
@@ -45,5 +37,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir:  ./build
+          publish_dir:  build
           publish_branch: gh-pages
